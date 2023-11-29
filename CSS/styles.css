@@ -1,3 +1,26 @@
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Adicione a classe 'hidden' e defina a opacidade inicial */
+.container,
+.header,
+.content,
+.footer {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave de 0.5 segundos */
+}
+
+/* Remove a classe 'hidden' e ajusta a opacidade para revelar os elementos */
+.container:not(.hidden),
+.header:not(.hidden),
+.content:not(.hidden),
+.footer:not(.hidden) {
+    opacity: 1;
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
