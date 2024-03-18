@@ -11197,7 +11197,11 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
-
 .footer {
   padding: 5rem 0;
+}
+#just{
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
