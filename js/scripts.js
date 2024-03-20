@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+function mostrarTexto(texto) {
+    document.getElementById("texto" + texto).style.opacity = "1";
+}
+function esconderTexto() {
+    document.getElementById("texto" + texto).style.opacity = "0";
+}  
